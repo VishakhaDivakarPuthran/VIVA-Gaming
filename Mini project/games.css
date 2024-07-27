@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+        background-image:  url(Dark\ Room.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+header {
+        background-image: url(game3.webp);
+        background-size: cover; 
+        background-position: center; 
+        height: 200px; 
+    color: rgb(246, 26, 125);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 36px;
+    padding-bottom: 5px;
+    
+}
+header:hover {
+    transform: scale(1.1);
+    background-size: 110%; 
+}
+
+
+.game-library {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+}
+
+.game-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.game-image {
+    max-width: 100%;
+}
+
+.game-image:hover{
+    transform: scale(1.1) ;
+}
+
+.game-details {
+    padding: 0 10px;
+}
+
+footer {
+    background-color: #7f1414;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.game-card:hover,.game-card{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+    transform: translateY(-5px); /* Move the card up slightly on hover */
+    transition: box-shadow 0.3s, transform 0.3s; /* Add smooth transition */
+}
+
